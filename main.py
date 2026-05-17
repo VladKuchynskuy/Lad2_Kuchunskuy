@@ -1,1 +1,1 @@
-print("validation")
+print("Refactored core logic")
