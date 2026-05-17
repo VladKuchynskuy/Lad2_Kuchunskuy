@@ -1,1 +1,1 @@
-print("Init")
+print("Core logic")
