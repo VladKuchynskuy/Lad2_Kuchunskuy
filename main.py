@@ -1,2 +1,1 @@
-print("Bug fixed")
-print("Main conflict text")
+print("Resolved text")
