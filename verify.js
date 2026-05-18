@@ -1,5 +1,5 @@
 console.log("Running Staging Verification...");
-const statusCode = 200; 
+const statusCode = 500; 
 if (statusCode === 200) {
   console.log("Staging Verification Passed!");
   process.exit(0);
