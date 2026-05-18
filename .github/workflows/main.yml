@@ -1,7 +1,7 @@
 name: CI/CD Pipeline
 on:
   push:
-    branches: [ main, master, feature/add-codeowners ]
+    branches: [ main, master ]
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -53,5 +53,5 @@ jobs:
         with:
           name: app-artifact
       - run: |
-          echo "Deploying to Production LIVE!"
+          echo "Deploying to Production LIVE"
           cat build_artifact.txt
